@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    background: linear-gradient(to left, #2E0249, #570A57, #A91079, #F806CC);
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    padding-top: 12px;
+    font-size: 36px;
+    text-shadow: 4px 0 4px #FFD93D;
+}
+
+.heading img {
+    height: 48px;
+    width: 48px;
+}
+
+.info-text {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 40px;
+    justify-content: center;
+    padding: 48px;
+}
+
+.note {
+    padding: 18px;
+    border-radius: 16px;
+    resize: none;
+    box-shadow: 0 0 4px #FFD93D;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    height: 200px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, .15);
+    box-sizing: border-box;
+    transition: .3s ease;
+}
+
+.note::placeholder {
+    color: #FFD93D;
+    opacity: 50%;
+}
+
+.note:hover, .note:focus {
+    box-shadow: 0 0 12px #FFD93D;
+}
+
+.btn {
+    height: 200px;
+    border: none;
+    box-shadow: 0 0 4px #FFD93D;
+    background: rgba(255, 255, 255, .27);
+    border-radius: 16px;
+    font-size: 70px;
+    font-weight: 700;
+    color: rgba(255, 216, 61, .5);
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, .32);
+    color: #FFD93D;
+}
